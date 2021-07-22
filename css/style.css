@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left-side {
+    max-width: 800px;
+    width: 800px;
+    background-color: black;
+}
+
+.leftImg {
+    position: fixed;
+    max-width: 800px;
+    width: 800px;
+    max-height: 1080px;
+}
+
+.blur {
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.68);
+    max-height: 1080px;
+    height: 5000px;
+    width: 800px;
+    bottom: -17px;
+    max-width: 800px;
+}
+
+.right-side {
+    background-color: black;
+    height: 1080px;
+    width: 1280px;
+    position: fixed;
+    left: 800px;
+}
+
+.background-temp {
+    position: relative;
+    padding-left: 30px;
+    color: #6b6a6a;
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    line-height: 90pt;
+    letter-spacing: 30pt;
+    left: 30px;
+}
+
+.blur2 {
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-height: 1080px;
+    height: 5000px;
+    width: 1280px;
+    bottom: -17px;
+    max-width: 1280px;
+}
+
+.nav {
+    position: absolute;
+    z-index: 8;
+    top: 110px;
+    left: 400px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dddddd;
+    font-family: 'Raleway', sans-serif;
+    font-size: 38pt;
+    line-height: 140pt;
+    letter-spacing: 5pt;
+    text-align: center;
+}
