@@ -1,42 +1,49 @@
 body {
     margin: 0;
+    max-width: 1920px;
 }
 
 .home {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .left-side {
-    max-width: 800px;
-    width: 800px;
+    max-width: 804px;
+    width: 804px;
     background-color: black;
 }
 
 .leftImg {
     position: fixed;
-    max-width: 800px;
-    width: 800px;
+    max-width: 804px;
+    width: 804px;
     max-height: 1080px;
+    height: 1080px;
+    right: 1116px;
 }
 
 .blur {
-    position: absolute;
+    position: fixed;
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.68);
     max-height: 1080px;
     height: 5000px;
-    width: 800px;
-    bottom: -17px;
-    max-width: 800px;
+    width: 804px;
+    top: -17px;
+    max-width: 804px;
+    right: 1116px;
 }
 
 .right-side {
     background-color: black;
     height: 1080px;
-    width: 1280px;
+    width: 1116px;
     position: fixed;
-    left: 800px;
+    right: 0;
 }
 
 .background-temp {
@@ -56,14 +63,14 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     max-height: 1080px;
     height: 5000px;
-    width: 1280px;
+    width: 1116px;
     bottom: -17px;
-    max-width: 1280px;
+    max-width: 1116px;
 }
 
 .nav {
     position: absolute;
-    z-index: 8;
+    z-index: 9;
     top: 80px;
     left: 400px;
     /* text-align: center; */
@@ -83,4 +90,10 @@ body {
     font-size: 40pt;
     transition-duration: 200ms;
     border-bottom: 2px solid #dddddd;
+}
+
+@media only screen and (min-width: 1920px) {
+    body {
+        margin: auto;
+    }
 }
