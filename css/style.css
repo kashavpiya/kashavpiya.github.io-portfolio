@@ -82,4 +82,5 @@ body {
 .homeLinks:hover {
     font-size: 40pt;
     transition-duration: 200ms;
+    border-bottom: 2px solid #dddddd;
 }
