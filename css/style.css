@@ -245,6 +245,9 @@ h1 {
 }
 
 @media only screen and (max-width: 900px) {
+    * {
+        transition-duration: 50ms;
+    }
     .leftImg {
         display: block;
         max-width: 1080px;
@@ -317,6 +320,9 @@ h1 {
 }
 
 @media only screen and (max-width: 500px) {
+    * {
+        transition-duration: 350ms;
+    }
     h1 {
         font-size: 40pt;
         letter-spacing: 18px;
