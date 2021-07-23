@@ -168,6 +168,13 @@ h1 {
         max-width: 1080px;
         width: 100%;
     }
+    .left-side {
+        max-height: 1400px;
+        height: 1400px;
+        left: 0px;
+        max-width: 1080px;
+        width: 100%;
+    }
     /* .right-side {
         top: 1080px;
         width: 100%;
@@ -189,7 +196,7 @@ h1 {
         z-index: 10;
         width: 200px;
         top: 116px;
-        right: 50px;
+        left: 50px;
     }
     /* Style navigation menu links */
     .topnav a {
@@ -218,11 +225,11 @@ h1 {
         font-size: 23px;
         z-index: 9;
         position: fixed;
-        right: 50px;
+        left: 50px;
         top: 50px;
     }
     .about {
-        top: 280px;
+        top: 318px;
     }
     .about p {
         width: 70%;
