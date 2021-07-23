@@ -5,6 +5,7 @@
 body {
     margin: 0;
     max-width: 1920px;
+    background-color: rgba(0, 0, 0, 0.95);
 }
 
 .home {
@@ -219,5 +220,11 @@ h1 {
         position: fixed;
         right: 50px;
         top: 50px;
+    }
+    .about {
+        top: 280px;
+    }
+    .about p {
+        width: 70%;
     }
 }
