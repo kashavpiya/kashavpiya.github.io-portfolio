@@ -203,7 +203,7 @@ h1 {
     /* Style navigation menu links */
     .topnav a {
         color: rgb(205, 205, 205);
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.95);
         padding: 25px 16px 0;
         font-family: "Noto sans", sans-serif;
         font-size: 18px;
