@@ -144,6 +144,29 @@ h1 {
     text-align: justify;
 }
 
+.button {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #dddddd;
+}
+
+.button a:hover {
+    /* background-color: #dddddd;
+    color: black;
+    text-decoration: underline; */
+    border: solid #dddddd 3px;
+    transition-duration: 500ms !important;
+    padding: 10px;
+}
+
 @media only screen and (min-width: 1920px) {
     body {
         margin: auto;
