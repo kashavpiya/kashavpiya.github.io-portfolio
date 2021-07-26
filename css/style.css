@@ -197,15 +197,15 @@ h1 {
         position: fixed;
         z-index: 10;
         width: 200px;
-        top: 96px;
-        left: 30px;
+        top: 76px;
+        left: 10px;
     }
     /* Style navigation menu links */
     .topnav a {
         color: rgb(205, 205, 205);
         background-color: rgba(0, 0, 0, 0.95);
         padding: 25px 16px 0;
-        font-family: "Noto sans", sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         display: block;
         text-decoration: none;
@@ -227,8 +227,8 @@ h1 {
         font-size: 23px;
         z-index: 9;
         position: fixed;
-        left: 30px;
-        top: 30px;
+        left: 10px;
+        top: 10px;
     }
     .about {
         top: 318px;
