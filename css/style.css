@@ -178,6 +178,7 @@ h1 {
     padding-top: 30px;
     margin-right: auto;
     display: flex;
+    height: 22px;
 }
 
 .nav2 a {
