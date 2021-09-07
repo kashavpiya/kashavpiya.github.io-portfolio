@@ -169,6 +169,33 @@ h1 {
     padding: 10px;
 }
 
+
+/* article page style goes here */
+
+.nav2 {
+    width: 80%;
+    margin-left: auto;
+    padding-top: 30px;
+    margin-right: auto;
+    display: flex;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 0 5% 20px;
+}
+
+.nav2 a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
 @media only screen and (min-width: 2160px) {
     body {
         margin: auto;
